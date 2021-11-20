@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    font-size: normal 10pt arial;
+    position: absolute;
+    top: 50%; /* distancia em relacao ao topo*/
+    left: 50%;
+    transform: translate(-50%,-65%); 
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgba(red, green, blue, alpha);
+    text-align: center;
+
+}
+
+
+
+.btn{
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    margin: 2px;
+    background-color: blue;
+    border-radius:3px;
+    border: none;
+}
+.btn:hover{/* quando o mouse passar em cima*/
+    background-color: DeepSkyBlue;
+}
+
